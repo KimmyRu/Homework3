@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right,#ffffff, #86e4d6);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Cart-Container {
+    width: 70%;
+    height: 85%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #1687d933;
+}
+
+.Header {
+    /* margin: auto; */
+    width: 90%;
+    height: 8%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    color: #2F3841;
+    gap: 10px;
+    justify-content: center;
+}
+
+.logo span {
+    font-weight: 900;
+}
+
+/* nav a{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    color: #000000;
+    display: flex;
+    gap: 6rem;
+} */
+
+nav {
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans'
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    border: 2px solid rgb(235, 229, 229);
+}
+
+.cart {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    color: #2F3841;
+    padding-left: 10%;
+    margin-top: 4%;
+
+}
+
+.menulogin {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    justify-content: right;
+    gap: 1rem;
+    
+
+}
+
+.search {
+    color: #adadad;
+    cursor: pointer;
+}
+
+.notification {
+    height: 1rem;
+    width: 1rem;
+    display: flex;
+    position: relative;
+    top: 13px;
+    right: 23px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 0.5rem;
+    background: red;
+    color: white;
+
+}
+
+.MainCart {
+    display: flex;
+    padding-left: 10%;
+    margin-top: 1.5%;
+    gap: 3rem;
+}
+  
+.Cartpage {
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+    min-width: 35%;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Open Sans';
+    background: linear-gradient(to right, #fefdfd, #98f3fb);
+    padding: 9px;
+    border-radius: 1.5rem;
+    gap: 1.9rem;
+
+}
+
+.remove {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    border: 1px solid #26dde3;
+    border-radius: 50%;
+    color: #2e959a;
+    cursor: pointer;
+}
+
+.remove:hover {
+	background:linear-gradient(to bottom,#ffffff, #86e4d6);
+	background-color:#80b5ea;
+}
+
+.picproduct1 {
+    background: linear-gradient(
+      10deg,
+      rgb(5, 192, 86) 0%,
+      rgb(198, 243, 236) 100%
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding-left: 2rem;
+    min-width: 13rem;
+    min-height: 14rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+.picproduct2 {
+    background: linear-gradient(
+      10deg,
+      rgb(233, 69, 29) 0%,
+      rgb(255, 221, 0) 100%
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding-left: 2rem;
+    min-width: 13rem;
+    min-height: 14rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+.file1 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 1rem;
+    color: #25abf2;
+}
+
+.file2 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 1rem;
+    color: #f28c25;
+}
+
+.item-name {
+    font-size: 1.25rem;
+}
+
+.description {
+    font-weight: 100;
+}
+  
+.level {
+    display: flex;
+    gap: 0.4rem;
+    padding-top: 1rem;
+
+}
+  
+.ball {
+    background-color: silver;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+}
+
+.blue {
+    background-color: #1b88fc;
+}
+  
+select {
+    border-radius: 5px;
+    border: 1px solid rgb(8, 240, 147);
+}
+
+.cost {
+    padding-top: 1rem;
+    font-weight: 500;
+    font-family: 'Open Sans';
+}
+
+.order {
+    border: 1px solid rgb(221, 218, 218);
+    border-radius: 15px;
+    flex-direction: column;
+    display: flex;
+    gap: 12px;
+    padding: 100px;
+    height: 500px;
+    font-family: 'Open Sans';
+}
+
+.order span {
+    font-size: 25px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #000;
+}
+
+.price p {
+    font-weight: 700;
+    font-family: 'Open Sans';
+    color: #000;
+
+}
+.subtotal {
+    display: flex;
+    justify-content:space-between;
+}
+
+.coupon form {
+    display: flex;
+    align-items: center;
+    color: #2e959a;
+    gap: 15px;
+}
+
+.form {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.apply {
+    border: 3px solid rgb(146, 233, 241);
+    border-radius: 12px;
+    width: 120px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    padding: 8px;
+    color: rgb(146, 233, 241);
+    background: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.bttn {
+    display: flex;
+    justify-content: center;
+}
+
+.payment {
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-family: 'Open Sans';
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.payment span {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(144, 205, 204);
+    display: flex;
+    font-family: 'Open Sans';
+    
+}
+
+.bttn button {
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background:linear-gradient(to bottom, rgb(144, 205, 204) , #bddbfa);
+    padding: 15px;
+    font-family: 'Open Sans';
+    box-shadow: -0.5px 5px 15px 0px rgb(144, 205, 204);
+    cursor: pointer;
+}
+
+.bttn button:hover {
+	background:linear-gradient(to bottom,#ffffff, #86e4d6);
+	background-color:#80b5ea;
+}
